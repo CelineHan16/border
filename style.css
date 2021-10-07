@@ -1,0 +1,90 @@
+#example1 {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px;
+  font-size: 18px;
+  background-color: white;
+}
+#example2 {
+  background-color: rgb(236, 79, 79);
+  padding: 15px 5px;
+  margin: 10px;
+  font-size: 18px;
+  border: 0;
+}
+#example3 {
+  border: 4px dashed red;
+  background-color: white;
+  color: rgb(252, 24, 24);
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 4px 1px;
+  margin: 10px;
+}
+#example4 {
+  border: 8px dotted green;
+  font-size: 18px;
+  font-weight: bold;
+  width: 170px;
+  padding: 10px;
+  background-color: white;
+  color: rgb(21, 21, 151);
+  margin: 10px;
+}
+#example5 {
+  border-top: 8px solid green;
+  border-bottom: 8px solid rgb(248, 74, 62);
+  border-left: 7px solid rgb(44, 133, 118);
+  border-right: 7px solid black;
+  padding: 3px 10px;
+  font-size: 15px;
+  color: rgb(255, 123, 0);
+  text-decoration: underline;
+  margin: 10px;
+  background-color: white;
+}
+#example6 {
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 10px;
+  text-align: right;
+  width: 150px;
+  font-size: 17px;
+  margin: 10px;
+}
+#example7 {
+  border: 3px solid rgb(201, 108, 22);
+  background-color: rgba(250, 250, 101, 0.911);
+  color: rgb(201, 108, 22);
+  font-size: 17px;
+  font-weight: bold;
+  width: 150px;
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
+}
+#example8 {
+  background-color: rgb(9, 32, 245);
+  color: white;
+  border: 2px dashed;
+  padding: 5px 10px;
+  font-size: 20px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+#example9 {
+  background-color: rgb(170, 31, 6);
+  color: white;
+  border: 15px dotted rgb(247, 168, 65);
+  font-size: 16px;
+  margin: 10px;
+}
+#example10 {
+  background-color: darkgoldenrod;
+  border: 12px dashed white;
+  color: white;
+  font-size: 14px;
+  text-transform: lowercase;
+  margin: 10px;
+}
