@@ -10,7 +10,7 @@
   padding: 15px 5px;
   margin: 10px;
   font-size: 18px;
-  border: 0;
+  border: none;
 }
 #example3 {
   border: 4px dashed red;
@@ -105,11 +105,12 @@
 }
 #table-2 {
   margin: 30px;
-  
-  
+  border-collapse: collapse;
+  border-radius: 50px;
 }
 td {
   padding: 10px;
+  border: 1px solid  gray;
 }
 #item {
   background-color: rgb(17, 105, 79);
@@ -120,7 +121,7 @@ td {
   text-align: left;
   padding: 15px;
   width: 550px;
-  
+  border-radius: 10px 0 0 0;
 }
 .left {
   text-align: right;
@@ -135,8 +136,18 @@ td {
 }
 #price {
   width: 100px;
+  border-radius: 0 10px 0 0;
 }
 #total {
   color: rgb(9, 94, 94);
   font-weight: bold;
+  border-radius: 0 0 0 10px;
+}
+#rew {
+  color: rgb(9, 94, 94);
+  font-weight: bold;
+  border-radius: 0 0 10px 0;
+}
+#without {
+  border: 0;
 }
