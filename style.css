@@ -106,7 +106,7 @@
 #table-2 {
   margin: 30px;
   border-collapse: collapse;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 td {
   padding: 10px;
@@ -126,6 +126,7 @@ td {
 .left {
   text-align: right;
   padding: 15px;
+  border-radius: 0 0 10px 10px;
 }
 #qty {
   width: 60px;
@@ -141,13 +142,36 @@ td {
 #total {
   color: rgb(9, 94, 94);
   font-weight: bold;
+  
   border-radius: 0 0 0 10px;
 }
 #rew {
   color: rgb(9, 94, 94);
   font-weight: bold;
   border-radius: 0 0 10px 0;
+  
 }
 #without {
-  border: 0;
+  border: none;
+  font-size: 17px;
+}
+#table-3 {
+  border-collapse: collapse;
+  height: 500px;
+}
+#hr {
+  border-top: 1px solid rgb(170, 168, 168);
+  padding-top: 10px;
+}
+.graytr {
+  background-color: rgb(184, 180, 180);
+}
+#blue {
+  background-color: #89c0f0;
+  border: 1px solid rgb(172, 166, 166);
+}
+.name {
+  padding: 10px;
+  height: 45px;
+  font-size: 18px;
 }
